@@ -12,33 +12,33 @@
  *
  * @link https://developer.wordpress.org/themes/functionality/custom-headers/
  *
- * @package TestSanity
+ * @package Hale\'s
  */
 
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses testsanity_header_style()
+ * @uses hales_header_style()
  */
-function testsanity_custom_header_setup() {
-	add_theme_support( 'custom-header', apply_filters( 'testsanity_custom_header_args', array(
+function hales_custom_header_setup() {
+	add_theme_support( 'custom-header', apply_filters( 'hales_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',
 		'width'                  => 1000,
 		'height'                 => 250,
 		'flex-height'            => true,
-		'wp-head-callback'       => 'testsanity_header_style',
+		'wp-head-callback'       => 'hales_header_style',
 	) ) );
 }
-add_action( 'after_setup_theme', 'testsanity_custom_header_setup' );
+add_action( 'after_setup_theme', 'hales_custom_header_setup' );
 
-if ( ! function_exists( 'testsanity_header_style' ) ) :
+if ( ! function_exists( 'hales_header_style' ) ) :
 /**
  * Styles the header image and text displayed on the blog.
  *
- * @see testsanity_custom_header_setup().
+ * @see hales_custom_header_setup().
  */
-function testsanity_header_style() {
+function hales_header_style() {
 	$header_text_color = get_header_textcolor();
 
 	/*
