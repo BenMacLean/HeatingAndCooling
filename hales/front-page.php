@@ -42,13 +42,12 @@ get_header(); ?>
     <div class="weird-box cst-button"><a href="http://www.haleshnc.com/contact">Contact</a></div>
   </div>
 
-  <div class="dib secondary-gallery">
-    <div class="cst-second-gallery">
-    <?php $id = $id = 56; $p = get_page($id); echo apply_filters('the_content', $p->post_content); ?>
+  <div class="dib secondary-gallery absolute-container">
+    <div class="slideshow-wrapper">
+      <?php do_action('slideshow_deploy', '46'); ?>
     </div>
-
-
   </div>
+
   <div class="dib right-promo">
   <img id="promo" src="<?php echo(get_template_directory_uri()); ?>/images/right-promo-img.png" alt="" />
   <img id="promo-sub" src="<?php echo(get_template_directory_uri()); ?>/images/promo-sub.png" alt="" />
@@ -66,18 +65,32 @@ get_header(); ?>
   <div class="weird-inner-box small-gallery">
 
     <div class="cst-left-gallery">
-    <?php $id = $id = 49; $p = get_page($id); echo apply_filters('the_content', $p->post_content); ?>
+      <div class="absolute-container">
+        <div class="slideshow-wrapper lower-gallery">
+          <?php do_action('slideshow_deploy', '53'); ?>
+        </div>
+      </div>
     </div>
 
   </div>
+
   <div class="weird-inner-box small-gallery">
     <div class="cst-center-gallery">
-    <?php $id = $id = 52; $p = get_page($id); echo apply_filters('the_content', $p->post_content); ?>
+      <div class="absolute-container">
+        <div class="slideshow-wrapper lower-gallery">
+          <?php do_action('slideshow_deploy', '54'); ?>
+        </div>
+      </div>
     </div>
   </div>
+
   <div class="weird-inner-box small-gallery">
     <div class="cst-right-gallery">
-    <?php $id = $id = 54; $p = get_page($id); echo apply_filters('the_content', $p->post_content); ?>
+      <div class="absolute-container">
+        <div class="slideshow-wrapper lower-gallery">
+          <?php do_action('slideshow_deploy', '55'); ?>
+        </div>
+      </div>
     </div>
 </div>
 </div>
