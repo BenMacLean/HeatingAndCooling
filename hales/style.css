@@ -2030,14 +2030,6 @@ footer a{
 	width: 100%;
 }
 
-.wrapper{
-    width: 100%;
-    max-width: 1180px;
-    padding: 0 10px;
-    margin: 0 auto;
-
-}
-
 .header{
     margin-bottom: -22px;
 		margin-top: -30px;
@@ -2045,6 +2037,8 @@ footer a{
 }
 
 h1.logo{
+	z-index: 1000;
+	position: relative;
 		background-image: url(images/header.png);
 		background-repeat: no-repeat;
 		width: 100%;
@@ -2054,8 +2048,6 @@ h1.logo{
     height: 650px;
 		top: 0;
 		left: 0;
-		background-color: #fff;
-
 }
 
 
@@ -2257,4 +2249,17 @@ h1.logo{
 	margin-top: 0;
 	z-index: 1;
 
+}
+
+.main-gallery{
+	position: relative;
+}
+
+.slideshow-wrapper{
+	top: 0;
+	position: absolute;
+}
+
+.slideshow_container .slideshow_view .slideshow_slide.slideshow_slide_image img{
+	width: 100% !important;
 }
