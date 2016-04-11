@@ -9,7 +9,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package Hale\'s
+ * @package TestSanity
  */
 
 get_header(); ?>
