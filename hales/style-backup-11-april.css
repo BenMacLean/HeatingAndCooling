@@ -2011,7 +2011,7 @@ footer a{
     text-decoration: none;
 }
 /*ADDITIONAL==================================*/
-
+/*
 .weird-box{
 	-moz-box-shadow: inset -4px -5px 2px 0px rgba(0,0,0,0.75), inset 2px 3px 5px -1px rgba(255,255,255,1);
 	-webkit-box-shadow: inset -4px -5px 2px 0px rgba(0,0,0,0.75), inset 2px 3px 5px -1px rgba(255,255,255,1);
@@ -2032,13 +2032,13 @@ footer a{
 
 .wrapper{
     width: 100%;
-    max-width: 1180px;
-    padding: 0 10px;
-    margin: 0 auto;
+    /*max-width: 1180px;*/
+    /*padding: 0 10px;*/
+    /*margin: 0 auto;
 
-}
+}*/
 
-.header{
+/*.header{
     margin-bottom: -22px;
 		margin-top: -30px;
 
@@ -2092,8 +2092,8 @@ h1.logo{
 
 }
 
-.cst-button a{
-    text-transform: uppercase;
+.cst-button a{*/
+    /*text-transform: uppercase;
 		text-decoration: none;
     text-align: center;
     font-size: 18px;
@@ -2108,9 +2108,9 @@ h1.logo{
 	display: inline-block;
 	vertical-align: top;
 	width: 10%;
-}
+}*/
 
-.dib{
+/*.dib{
 	margin-right: -4px;
 }
 
@@ -2255,6 +2255,35 @@ h1.logo{
 .cst-right-gallery{
  	background-color: #fff;
 	margin-top: 0;
-	z-index: 1;
+	z-index: 1;*/
 
+/*}*/
+
+
+	/*margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 8px;*/
+
+/*.north.hackery{
+	width: 100vw;
+	height: 8px;
+	top: 0;
 }
+
+.south.hackery{
+	width: 100vw;
+	height: 8px;
+	bottom: 0;
+}
+
+.east.hackery{
+ 	width: 8px;
+	height: 100vh;
+	right: 0;
+}
+
+.west.hackery{
+	/*width: 8px;*/
+	/*height: 100vh;
+	left: 0;
+/*}*//*/
