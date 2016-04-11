@@ -2066,10 +2066,6 @@ h1.logo{
 
 }
 
-
-
-
-
 .cst-button{
     padding: 15px 10px 10px 10px;
     text-transform: uppercase;
@@ -2081,7 +2077,7 @@ h1.logo{
     background-color: #be1e2d;
     height: 63px;255
 		text-decoration: none;
-
+		cursor: pointer;
 }
 
 .cst-button a{
@@ -2093,8 +2089,21 @@ h1.logo{
     font-weight: bold;
     color: #f0dfb4;
     background-color: #be1e2d;
-    height: 63px;255
+    height: 63px;
 }
+
+.cst-button:hover{
+	background-color: #f0dfb4 ;
+}
+
+.cst-button:hover a{
+	background-color: #f0dfb4 ;
+	color: #be1e2d;
+}
+
+
+
+
 
 .button-list{
 	display: inline-block;
@@ -2251,7 +2260,7 @@ h1.logo{
 
 }
 
-.main-gallery{
+.absolute-container{
 	position: relative;
 }
 
@@ -2262,4 +2271,33 @@ h1.logo{
 
 .slideshow_container .slideshow_view .slideshow_slide.slideshow_slide_image img{
 	width: 100% !important;
+}
+
+.lower-gallery .slideshow_container .slideshow_view .slideshow_slide.slideshow_slide_image img{
+	height: 314px !important;
+}
+
+.footer-nav{
+  padding-top: 20px;
+}
+
+.footer-nav a{
+	width: 8%;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1em;
+	font-family: verdana;
+	color: #603813;
+}
+
+.footer-nav a:hover{
+	color: #000;
+}
+
+.circle-separator{
+	display: inline-block;
+	border: 5px solid #603813;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
 }

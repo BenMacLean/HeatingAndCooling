@@ -13,14 +13,31 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'hales' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'hales' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'hales' ), 'hales', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+	<div class="cst-footer">
+
+	<nav class="footer-nav">
+		<a href="http://www.haleshnc.com/home-page/">HOME</a>
+		<div class="circle-separator"></div>
+		<a href="http://www.haleshnc.com/about/">ABOUT</a>
+		<div class="circle-separator"></div>
+
+		<a href="http://www.haleshnc.com/services">SERVICES</a>
+		<div class="circle-separator"></div>
+
+		<a href="http://www.haleshnc.com/products">PRODUCTS</a>
+		<div class="circle-separator"></div>
+
+		<a href="http://www.haleshnc.com/specials">SPECIALS</a>
+		<div class="circle-separator"></div>
+
+		<a href="http://www.haleshnc.com/gallery">GALLERY</a>
+		<div class="circle-separator"></div>
+
+		<a href="http://www.haleshnc.com/blog">BLOG</a>
+		<div class="circle-separator"></div>
+
+		<a href="http://www.haleshnc.com/contact">CONTACT</a>
+	</nav>
 
 <?php wp_footer(); ?>
 

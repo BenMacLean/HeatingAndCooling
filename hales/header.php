@@ -24,7 +24,7 @@
 <body <?php body_class(); ?>>
 	<div id="page" class="site">
 
-		<div class="main-gallery">
+		<div class="absolute-container">
 			<div class="header">
 				<div class="wrapper">
 					<h1 class="logo">Hale's Heating and Cooling</h1>
