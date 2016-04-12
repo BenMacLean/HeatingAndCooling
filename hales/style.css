@@ -2301,3 +2301,103 @@ h1.logo{
 	height: 10px;
 	border-radius: 50%;
 }
+
+.page-middle-container{
+	height: 441px;
+}
+
+.page-middle-container .secondary-gallery{
+	width: 90%;
+}
+
+.page-middle-container .secondary-gallery img{
+	height: 441px;
+  vertical-align: top;
+  margin-top: -40px;
+  width: 500px;
+	float: right;
+}
+
+.cst-inner-text{
+	float: left;
+	max-width: 47%;
+	padding: 0px 24px;
+}
+
+.about .about{
+	background-color: #f0dfb4 ;
+	color: #be1e2d;
+}
+
+.services .services{
+	background-color: #f0dfb4 ;
+	color: #be1e2d;
+}
+
+.products .products{
+	background-color: #f0dfb4 ;
+	color: #be1e2d;
+}
+
+.specials .specials{
+	background-color: #f0dfb4 ;
+	color: #be1e2d;
+}
+
+.gallery-class .gallery{
+	background-color: #f0dfb4 ;
+	color: #be1e2d;
+}
+
+.blog-class .blog{
+	background-color: #f0dfb4 ;
+	color: #be1e2d;
+}
+
+.contact .contact{
+	background-color: #f0dfb4 ;
+	color: #be1e2d;
+}
+
+
+
+
+
+
+
+
+
+.about .about a{
+	background-color: #f0dfb4 ;
+	color: #be1e2d;
+}
+
+.services .services a{
+	background-color: #f0dfb4 ;
+	color: #be1e2d;
+}
+
+.products .products a{
+	background-color: #f0dfb4 ;
+	color: #be1e2d;
+}
+
+.specials .specials a{
+	background-color: #f0dfb4 ;
+	color: #be1e2d;
+}
+
+.gallery-class .gallery a{
+	background-color: #f0dfb4 ;
+	color: #be1e2d;
+}
+
+.blog-class .blog a{
+	background-color: #f0dfb4 ;
+	color: #be1e2d;
+}
+
+.contact .contact a{
+	background-color: #f0dfb4 ;
+	color: #be1e2d;
+}

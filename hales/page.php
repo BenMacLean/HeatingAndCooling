@@ -14,25 +14,39 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-			<div class="wrapper" id="page-content">
+<div class="weird-box horizontal-spacer"></div>
+<div class="middle-container page-middle-container">
+  <div class="dib button-list <?php echo get_query_var("pagename") ?>">
+    <div class="about weird-box cst-button"><a href="http://www.haleshnc.com/about/">About</a></div>
+    <div class="services weird-box cst-button"><a href="http://www.haleshnc.com/services">Services</a></div>
+    <div class="products weird-box cst-button"><a href="http://www.haleshnc.com/products">Products</a></div>
+    <div class="specials weird-box cst-button"><a href="http://www.haleshnc.com/specials">Specials</a></div>
+    <div class="gallery-class weird-box cst-button"><a href="http://www.haleshnc.com/gallery">Gallery</a></div>
+    <div class="blog-class weird-box cst-button"><a href="http://www.haleshnc.com/blog">Blog</a></div>
+    <div class="contact weird-box cst-button"><a href="http://www.haleshnc.com/contact">Contact</a></div>
+  </div>
 
-			<?php
-			while ( have_posts() ) : the_post();
 
-				get_template_part( 'template-parts/content', 'page' );
+  <div class="dib secondary-gallery absolute-container">
+		<?php
+		while ( have_posts() ) : the_post();
 
-				// If comments are open or we have at least one comment, load up the comment template.
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
+			get_template_part( 'template-parts/content', 'page' );
 
-			endwhile; // End of the loop.
-			?>
+			// If comments are open or we have at least one comment, load up the comment template.
+			if ( comments_open() || get_comments_number() ) :
+				comments_template();
+			endif;
+
+		endwhile; // End of the loop.
+		?>
+  </div>
 </div>
-		</main><!-- #main -->
-	</div><!-- #primary -->
+<div class="weird-box horizontal-spacer"></div>
+
+
+
+
 
 <?php
 
