@@ -2118,8 +2118,12 @@ h1.logo{
 .secondary-gallery{
 	height: 441px;
 	width: 75%;
-	background-color: #fff;
+	background-color: beige;
 	display: inline-block;
+}
+
+.contact .secondary-gallery {
+ background-color: #b6b54f !important;
 }
 
 .right-promo{
@@ -2322,6 +2326,10 @@ h1.logo{
 	float: left;
 	max-width: 47%;
 	padding: 0px 24px;
+	font-family: arial;
+	font-size: 16px;
+	text-align: left;
+
 }
 
 .about .about{

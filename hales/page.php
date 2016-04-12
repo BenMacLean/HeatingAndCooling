@@ -15,8 +15,8 @@
 get_header(); ?>
 
 <div class="weird-box horizontal-spacer"></div>
-<div class="middle-container page-middle-container">
-  <div class="dib button-list <?php echo get_query_var("pagename") ?>">
+<div class="middle-container page-middle-container <?php echo get_query_var("pagename") ?>">
+  <div class="dib button-list">
     <div class="about weird-box cst-button"><a href="http://www.haleshnc.com/about/">About</a></div>
     <div class="services weird-box cst-button"><a href="http://www.haleshnc.com/services">Services</a></div>
     <div class="products weird-box cst-button"><a href="http://www.haleshnc.com/products">Products</a></div>
@@ -40,6 +40,52 @@ get_header(); ?>
 
 		endwhile; // End of the loop.
 		?>
+
+		<!-- CONTENTS OF THE CONTACT PAGE ONLY!!! -->
+	<?php if(get_query_var("pagename") == "contact"): ?>
+		<!-- <div>
+			<div class="form-label">
+			Name
+			</div>
+			<input type="text" name="Name" value="">
+		</div>
+		<div>
+			<div class="form-label">
+ 			Email
+			</div>
+			<input type="text" name="Email" value="">
+		</div>
+		<div>
+			<div class="form-label">
+ 			Phone
+			</div>
+			<input type="text" name="Phone" value="">
+		</div>
+		<div>
+			<div class="form-label">
+ 			Street Address
+			</div>
+			<input type="text" name="Street Address" value="">
+		</div>
+		<div>
+			<div class="form-label">
+ 			City, State ZIP
+			</div>
+			<input type="text" name="City, State ZIP" value="">
+		</div>
+
+
+		<div>
+			<div class="form-message">
+			Message
+			</div>
+			<input type="text" name="Form Message" value="">
+		</div>
+ 			<input type="button" name="Submit" value=""> -->
+
+			<?php wd_contact_form_builder(2); ?>
+
+				<?php endif; ?>
   </div>
 </div>
 <div class="weird-box horizontal-spacer"></div>
