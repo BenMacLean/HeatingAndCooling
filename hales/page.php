@@ -83,6 +83,8 @@ get_header(); ?>
 		</div>
  			<input type="button" name="Submit" value=""> -->
 
+    <img id="drop" src="<?php echo(get_template_directory_uri()); ?>/images/dropusaline.png" alt="" />  
+
 			<?php wd_contact_form_builder(2); ?>
 
 				<?php endif; ?>
