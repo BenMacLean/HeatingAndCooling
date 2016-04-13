@@ -83,7 +83,9 @@ get_header(); ?>
 		</div>
  			<input type="button" name="Submit" value=""> -->
 
-    <img id="drop" src="<?php echo(get_template_directory_uri()); ?>/images/dropusaline.png" alt="" />  
+    <img id="drop-us" src="<?php echo(get_template_directory_uri()); ?>/images/dropusaline.png" alt="" />
+
+    <div id="love-to"><span class="love-to">"We’d love to hear from you!</span> <span class="fill-out">Fill out this form and we will get back to you.</span></div> 
 
 			<?php wd_contact_form_builder(2); ?>
 
