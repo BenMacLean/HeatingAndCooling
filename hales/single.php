@@ -9,33 +9,37 @@
 
 get_header(); ?>
 
+<div class="weird-box horizontal-spacer"></div>
+
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
-		<div class="wrapper">
-			<div id="post-content">
-			<?php
-			while ( have_posts() ) : the_post();
+			<div class="wrapper">
+						<div id="post-content">
+						<?php
+						while ( have_posts() ) : the_post();
 
-			get_template_part( 'template-parts/content', get_post_format() );
+						get_template_part( 'template-parts/content', get_post_format() );
 
-			the_post_navigation();
+						the_post_navigation();
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
+						// If comments are open or we have at least one comment, load up the comment template.
+						if ( comments_open() || get_comments_number() ) :
+							comments_template();
+						endif;
 
-		endwhile; // End of the loop.
-		?>
-	</div>
+					endwhile; // End of the loop.
+					?>
 
-	<div id="sidebar">
-		<?php get_sidebar(); ?>
-	</div>
-</div>
+					afa
+				</div>
+
+				<div id="sidebar">
+					<?php get_sidebar(); ?>
+				</div>
+		</div>
 </main><!-- #main -->
 </div><!-- #primary -->
-
+<div class="weird-box horizontal-spacer"></div>
 <?php
 get_sidebar();
 get_footer();

@@ -43,7 +43,7 @@ get_header(); ?>
   </div>
 
   <div class="dib secondary-gallery absolute-container">
-    <div class="slideshow-wrapper">
+    <div class="slideshow-wrapper-mid">
       <?php do_action('slideshow_deploy', '46'); ?>
     </div>
   </div>
@@ -66,7 +66,7 @@ get_header(); ?>
 
     <div class="cst-left-gallery">
       <div class="absolute-container">
-        <div class="slideshow-wrapper lower-gallery">
+        <div class="slideshow-wrapper-low lower-gallery">
           <?php do_action('slideshow_deploy', '53'); ?>
         </div>
       </div>
@@ -77,7 +77,7 @@ get_header(); ?>
   <div class="weird-inner-box small-gallery">
     <div class="cst-center-gallery">
       <div class="absolute-container">
-        <div class="slideshow-wrapper lower-gallery">
+        <div class="slideshow-wrapper-low lower-gallery">
           <?php do_action('slideshow_deploy', '54'); ?>
         </div>
       </div>
@@ -87,7 +87,7 @@ get_header(); ?>
   <div class="weird-inner-box small-gallery">
     <div class="cst-right-gallery">
       <div class="absolute-container">
-        <div class="slideshow-wrapper lower-gallery">
+        <div class="slideshow-wrapper-low lower-gallery">
           <?php do_action('slideshow_deploy', '55'); ?>
         </div>
       </div>
