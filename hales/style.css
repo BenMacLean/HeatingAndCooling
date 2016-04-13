@@ -2416,3 +2416,21 @@ h1.logo{
 	float: left;
 	margin-top: -23px;
 	margin-left: 61px;}
+
+.love-to{
+	font-style: verdana!important;;
+	font-style: italic;
+	font-weight: bold;
+	color: #603813;
+}
+
+.fill-out{
+	font-style: arial!important;
+	color: #603813;
+}
+
+#love-to{
+	position: absolute;
+	padding-top: 119px;
+	padding-left: 100px;
+}
