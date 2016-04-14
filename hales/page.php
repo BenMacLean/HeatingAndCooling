@@ -88,6 +88,12 @@ get_header(); ?>
 
     <div id="love-to"><span class="love-to">We’d love to hear from you!</span> <span class="fill-out">Fill out this form and we will get back to you.</span></div>
 
+<div id="adress-container">
+    <div id="contact-info-lawson"><span class="places-numbers">LAWSON | 816-630-0200</span> </br>
+      <span class="street-address">500 Cates Dr. - Lawson, MO 64062</span></div>
+    <div id="contact-info-liberty"><span class="places-numbers">LIBERTY | 816-792-3300</span> </br>
+      <span class="street-address">1919 Industrial Dr., Ste. 100 - Liberty, MO 64068</span></div>
+</div>
 			<?php wd_contact_form_builder(2); ?>
 
 				<?php endif; ?>

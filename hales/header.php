@@ -25,10 +25,15 @@
 	<div id="page" class="site">
 
 		<div class="absolute-container">
-			<div class="header">
-				<div class="wrapper">
-					<h1 class="logo">Hale's Heating and Cooling</h1>
-				</div>
+		</div>
+			<div class="wrapper">
+				<div class="header">
+					<div class="header-info">
+						<img id="phonenumber" src="<?php echo(get_template_directory_uri()); ?>/images/phonenumber.png" alt="" />
+						<img id="facebook" src="<?php echo(get_template_directory_uri()); ?>/images/facebook.png" alt="" />
+						<img id="twitter" src="<?php echo(get_template_directory_uri()); ?>/images/twitter.png" alt="" />
+					</div>
+				<h1 class="logo">Hale's Heating and Cooling</h1>
 			</div>
 
 			<div class="slideshow-wrapper">
