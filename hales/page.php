@@ -88,7 +88,7 @@ get_header(); ?>
 
     <div id="love-to"><span class="love-to">We’d love to hear from you!</span> <span class="fill-out">Fill out this form and we will get back to you.</span></div>
 
-<div id="adress-container">
+<div id="address-container">
     <div id="contact-info-lawson"><span class="places-numbers">LAWSON | 816-630-0200</span> </br>
       <span class="street-address">500 Cates Dr. - Lawson, MO 64062</span></div>
     <div id="contact-info-liberty"><span class="places-numbers">LIBERTY | 816-792-3300</span> </br>
@@ -101,7 +101,16 @@ get_header(); ?>
 </div>
 
 
+<div class="dib right-promo">
+<img id="promo" src="<?php echo(get_template_directory_uri()); ?>/images/right-promo-img.png" alt="" />
+<img id="promo-sub" src="<?php echo(get_template_directory_uri()); ?>/images/promo-sub.png" alt="" />
+<img id="promo-txt" src="<?php echo(get_template_directory_uri()); ?>/images/right-promo-txt.png" alt="" />
 
+
+
+  <!-- <span class="arial-narrow">Done. Right.<br>&nbsp;<span class="guar">GUARANTEED.</span></span><br> -->
+  <!-- <span class="arial">We are a Carrier® Factory-Authorized Dealer – a distinction we don’t take lightly. Carrier backs every install with a 100% satisfaction guarantee. If, for any reason, you are dissatisfied with your Carrier equipment within one year of the installation date, we will correct the problem or remove the equipment and refund your purchase price.</span> -->
+</div>
 
 
 
