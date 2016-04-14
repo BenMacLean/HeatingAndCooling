@@ -2164,6 +2164,8 @@ footer a{
 	display: inline-block;
 	vertical-align: top;
 	width: 13%;
+	min-width: 115px;
+
 }
 
 .dib{
