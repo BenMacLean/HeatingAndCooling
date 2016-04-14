@@ -101,10 +101,7 @@ get_header(); ?>
 </div>
 
 
-<div class="dib right-promo">
-<img id="promo" src="<?php echo(get_template_directory_uri()); ?>/images/right-promo-img.png" alt="" />
-<img id="promo-sub" src="<?php echo(get_template_directory_uri()); ?>/images/promo-sub.png" alt="" />
-<img id="promo-txt" src="<?php echo(get_template_directory_uri()); ?>/images/right-promo-txt.png" alt="" />
+
 
 
 

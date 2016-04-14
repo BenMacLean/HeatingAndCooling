@@ -2059,14 +2059,20 @@ footer a{
 }
 
 .page-top-contact{
-	position:relative;
-	left: 67%;
-	top: -220px;
+	position: relative;
+	left: 56%;
+	top: -229px;
 	z-index: 100;
 	color: black;
 
 }
 
+#facebook{
+	height:40px;
+}
+#twitter{
+	height:40px;
+}
 
 .slideshow-wrapper-top .slideshow_content{
 	width: 100%;
@@ -2100,6 +2106,9 @@ footer a{
 	height: 314px !important;
 }
 
+.slideshow_container .slideshow_view:not(.slideshow_currentView){
+	z-index: -1 !important;
+}
 
 #phonenumber{
 	width: 250px;
@@ -2354,7 +2363,7 @@ footer a{
 }
 
 .page-middle-container .secondary-gallery{
-	width: 90%;
+	width: 87%;
 }
 
 .page-middle-container .secondary-gallery img{

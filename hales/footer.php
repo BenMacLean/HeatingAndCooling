@@ -15,7 +15,7 @@
 
 	<div class="cst-footer">
 
-	<div class="bottom-contact">191 Industrial Drive, Suite 100 - Liverty, MO 64068			|			500 Cates Drive - Lawson, MO 64062			|			info@halesheatingandcooling.com</div>	
+	<div class="bottom-contact">1919 Industrial Drive, Suite 100 - Liberty, MO 64068			|			500 Cates Drive - Lawson, MO 64062			|			info@halesheatingandcooling.com</div>	
 
 	<nav class="footer-nav">
 		<a href="http://www.haleshnc.com/home-page/">HOME</a>

@@ -29,8 +29,8 @@
 		<div class="logo-banner"><img id="smallerheader" src="<?php echo(get_template_directory_uri()); ?>/images/smallerheader.png" alt="" /></div>
 			<div class="page-top-contact">
 				<img id="phonenumber" src="<?php echo(get_template_directory_uri()); ?>/images/phonenumber.png" alt="" />
-				<img id="facebook" src="<?php echo(get_template_directory_uri()); ?>/images/facebook.png" alt="" />
-				<img id="twitter" src="<?php echo(get_template_directory_uri()); ?>/images/twitter.png" alt="" />
+				<a href="https://www.facebook.com/HalesHeatingAndCooling/" target="_blank"><img id="facebook" src="<?php echo(get_template_directory_uri()); ?>/images/facebook.png" alt="" /></a>
+				<a href="" target="_blank"><img id="twitter" src="<?php echo(get_template_directory_uri()); ?>/images/twitter.png" alt="" /></a>
 			</div>
 			<?php do_action('slideshow_deploy', '29'); ?>
 	</div>
