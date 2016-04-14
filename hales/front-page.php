@@ -38,9 +38,9 @@ get_header(); ?>
     <div class="products weird-box cst-button"><a href="http://www.haleshnc.com/products">Products</a></div>
     <div class="specials weird-box cst-button"><a href="http://www.haleshnc.com/specials">Specials</a></div>
     <div class="gallery-class weird-box cst-button"><a href="http://www.haleshnc.com/gallery">Gallery</a></div>
+    <div class="reviews weird-box cst-button"><a href="http://www.haleshnc.com/reviews">Reviews</a></div>
     <div class="blog-class weird-box cst-button"><a href="http://www.haleshnc.com/blog">Blog</a></div>
-    <div class="contact weird-box cst-button"><a href="http://www.haleshnc.com/contact">Contact</a></div>
-  </div>
+    </div>
 
   <div class="dib secondary-gallery absolute-container">
     <div class="slideshow-wrapper-mid">

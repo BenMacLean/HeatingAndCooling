@@ -9,6 +9,8 @@
 
 get_header(); ?>
 
+<div class="weird-box horizontal-spacer"></div>
+
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
