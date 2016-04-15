@@ -2112,6 +2112,7 @@ footer a{
 }
 
 .middle-container{
+	position: relative;
 	height: 441px;
 	width: 100%;
 
@@ -2703,7 +2704,7 @@ float: right;
 .contact-hidden{
 	display: none;
 	position: absolute;
-	left: 266px;
+	left: 157px;
 	z-index: 999;
 	margin-top: -63px;
 	width: 150px;
@@ -2712,7 +2713,7 @@ float: right;
 .hales-hidden{
 	display: none;
 	position: absolute;
-	left: 415px;
+	left: 306px;
 	z-index: 999;
 	margin-top: -63px;
 	width: 150px;
@@ -2721,7 +2722,7 @@ float: right;
 .service-areas-hidden{
 	display: none;
 	position: absolute;
-	left: 564px;
+	left: 455px;
 	z-index: 999;
 	margin-top: -63px;
 	width: 150px;
@@ -2730,12 +2731,77 @@ float: right;
 .payment-options-hidden{
 	display: none;
 	position: absolute;
-	left: 716px;
+	left: 604px;
 	z-index: 999;
 	margin-top: -63px;
 	width: 150px;
 }
 
+
+
+
+.services-extended:hover .installation-hidden{
+	display: block;
+}
+.services-extended:hover .maintenance-hidden{
+	display: block;
+}
+.services-extended:hover .commericial-hidden{
+	display: block;
+}
+
+.installation-hidden{
+	display: none;
+	position: absolute;
+	left: 157px;
+	z-index: 999;
+	margin-top: -63px;
+	width: 150px;
+}
+
+.maintenance-hidden{
+	display: none;
+	position: absolute;
+	left: 306px;
+	z-index: 999;
+	margin-top: -63px;
+	width: 150px;
+}
+
+.commercial-hidden{
+	display: none;
+	position: absolute;
+	left: 564px;
+	z-index: 999;
+	margin-top: -63px;
+	width: 150px;
+}
+
+.products-extended:hover .carrier-hidden{
+	display: block;
+}
+
+.products-extended:hover .aprilaire-hidden{
+	display: block;
+}
+
+.carrier-hidden{
+	display: none;
+	position: absolute;
+	left: 157px;
+	z-index: 999;
+	margin-top: -63px;
+	width: 150px;
+}
+
+.aprilaire-hidden{
+	display: none;
+	position: absolute;
+	left: 306px;
+	z-index: 999;
+	margin-top: -63px;
+	width: 150px;
+}
 
 body{
 	width: 1218px;
