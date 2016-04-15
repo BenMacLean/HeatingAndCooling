@@ -2640,8 +2640,8 @@ float: right;
 }
 
 #fscf_captcha_refresh1{
-	width: 44px;
-	margin-left: 121px;
+	width: 42px;
+	margin-left: 117px;
 }
 
 #fscf_captcha_field1{
@@ -2659,7 +2659,8 @@ float: right;
 
 #fscf_submit1{
 	margin-top: -72px!important;
-position: absolute;
+	left: 794px;
+	position: absolute;
 }
 
 
