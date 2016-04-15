@@ -2476,12 +2476,6 @@ footer a{
 	margin-top: -23px;
 	margin-left: 61px;}
 
-.love-to{
-	font-style: verdana!important;;
-	font-style: italic;
-	font-weight: bold;
-	color: #603813;
-}
 
 .fill-out{
 	font-style: arial!important;
@@ -2584,6 +2578,26 @@ float: right;
 
 /*===========CONTACT PAGE==========*/
 
+.drop-us-a-line{
+	float: left!important;
+	height: 120px;
+	width: 348px!important;
+	padding-left: 40px;
+	padding-top: 10px;
+}
+
+.love-to{
+	float: left!important;
+	padding-top: 49px;
+	padding-left: 50px;
+	width: 623px!important;
+	height: 65px!important;
+}
+
+.wp-image-94{
+	margin-right: 212px;
+	padding-top: 18px;
+}
 /*===========END CONTACT PAGE==========*/
 
 
