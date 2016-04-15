@@ -17,13 +17,16 @@ get_header(); ?>
 <div class="weird-box horizontal-spacer"></div>
 <div class="middle-container page-middle-container <?php echo get_query_var("pagename") ?>">
   <div class="dib button-list">
-    <div class="about weird-box cst-button"><a href="http://www.haleshnc.com/about/">About</a></div>
+   <div class="about-extended">
+    <div class="about weird-box cst-button"><a href="http://www.haleshnc.com/about">About</a></div>
+    <div class="contact-hidden weird-box cst-button"><a href="http://www.haleshnc.com/contact">Contact</a></div>
+   </div>
     <div class="services weird-box cst-button"><a href="http://www.haleshnc.com/services">Services</a></div>
     <div class="products weird-box cst-button"><a href="http://www.haleshnc.com/products">Products</a></div>
     <div class="specials weird-box cst-button"><a href="http://www.haleshnc.com/specials">Specials</a></div>
     <div class="gallery-class weird-box cst-button"><a href="http://www.haleshnc.com/gallery">Gallery</a></div>
+    <div class="reviews weird-box cst-button"><a href="http://www.haleshnc.com/reviews">Reviews</a></div>
     <div class="blog-class weird-box cst-button"><a href="http://www.haleshnc.com/blog">Blog</a></div>
-    <div class="contact weird-box cst-button"><a href="http://www.haleshnc.com/contact">Contact</a></div>
   </div>
 
 

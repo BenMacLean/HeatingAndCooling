@@ -2152,11 +2152,10 @@ footer a{
 	color: #be1e2d;
 }
 
-.about-sub-contact{
-	display: none;
-}
 
-.about:hover{
+
+.about-extended:hover .contact-hidden{
+	display: block;
 }
 
 
@@ -2666,6 +2665,14 @@ float: right;
 
 /*===========END CONTACT PAGE==========*/
 
+.contact-hidden{
+	display: none;
+	position: absolute;
+	left: 237px;
+	z-index: 999;
+	margin-top: -63px;
+	width: 150px;
+}
 
 
 
