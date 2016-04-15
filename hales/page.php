@@ -28,6 +28,9 @@ get_header(); ?>
 
 
   <div class="dib secondary-gallery absolute-container">
+
+
+
 		<?php
 		while ( have_posts() ) : the_post();
 
@@ -39,7 +42,7 @@ get_header(); ?>
 			endif;
 
 		endwhile; // End of the loop.
-		?>
+?>
 
 		<!-- CONTENTS OF THE CONTACT PAGE ONLY!!! -->
 	<?php if(get_query_var("pagename") == "contact"): ?>
