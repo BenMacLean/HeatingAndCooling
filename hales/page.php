@@ -25,7 +25,7 @@ get_header(); ?>
     <div class="products weird-box cst-button"><a href="http://www.haleshnc.com/products">Products</a></div>
     <div class="specials weird-box cst-button"><a href="http://www.haleshnc.com/specials">Specials</a></div>
     <div class="gallery-class weird-box cst-button"><a href="http://www.haleshnc.com/gallery">Gallery</a></div>
-    <div class="reviews weird-box cst-button"><a href="http://www.haleshnc.com/reviews">Reviews</a></div>
+    <div class="reviews weird-box cst-button"><a href="https://www.yelp.ca/biz/hales-heating-and-cooling-liberty" target="_blank">Reviews</a></div>
     <div class="blog-class weird-box cst-button"><a href="http://www.haleshnc.com/blog">Blog</a></div>
   </div>
 
@@ -117,12 +117,19 @@ get_header(); ?>
 
 
 
+
+
+<div class="dib right-promo-contact">
+  <img id="promo" src="<?php echo(get_template_directory_uri()); ?>/images/right-promo-img.png" alt="" />
+  <img id="promo-sub" src="<?php echo(get_template_directory_uri()); ?>/images/promo-sub.png" alt="" />
+  <img id="promo-txt" src="<?php echo(get_template_directory_uri()); ?>/images/right-promo-txt.png" alt="" />
+</div>
+
 <div class="weird-box horizontal-spacer"></div>
 
 
-
-
-
 <?php
+
+
 
 get_footer();

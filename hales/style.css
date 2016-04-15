@@ -2680,3 +2680,15 @@ body{
 	width: 1218px;
 margin: auto;
 }
+
+.right-promo-contact{
+	position: absolute;
+  right: 83px;
+  width: 13%;
+  height: 441px;
+  background-color: #008a8e;
+  display: inline-block;
+  vertical-align: top;
+  font-family: arial;
+  padding: 21px;
+  top: 789px;
