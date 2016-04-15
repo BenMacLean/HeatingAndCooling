@@ -2595,6 +2595,10 @@ float: right;
 	padding-top: 18px;
 }
 
+#FSContact1{
+	position: relative;
+}
+
 #fscf_required1{
 	display: none;
 }
@@ -2642,12 +2646,22 @@ float: right;
 
 #fscf_captcha_field1{
 	margin-left: 450px;
+	position: absolute;
+	left: 120px;
+	top: 168px;
+	display: none;
 }
 
 
 #fscf_submit_div1{
 	margin-left: 800px;
 }
+
+#fscf_submit1{
+	margin-top: -72px!important;
+position: absolute;
+}
+
 
 /*===========END CONTACT PAGE==========*/
 
