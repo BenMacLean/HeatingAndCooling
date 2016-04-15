@@ -18,15 +18,15 @@ get_header(); ?>
 <div class="middle-container page-middle-container <?php echo get_query_var("pagename") ?>">
   <div class="dib button-list">
    <div class="about-extended">
-    <div class="about weird-box cst-button"><a href="http://www.haleshnc.com/about">About</a></div>
-    <div class="contact-hidden weird-box cst-button"><a href="http://www.haleshnc.com/contact">Contact</a></div>
+    <a href="http://www.haleshnc.com/about"><div class="about weird-box cst-button">About</a></div>
+    <a href="http://www.haleshnc.com/contact"><div class="contact-hidden weird-box cst-button">Contact</a></div>
    </div>
-    <div class="services weird-box cst-button"><a href="http://www.haleshnc.com/services">Services</a></div>
-    <div class="products weird-box cst-button"><a href="http://www.haleshnc.com/products">Products</a></div>
-    <div class="specials weird-box cst-button"><a href="http://www.haleshnc.com/specials">Specials</a></div>
-    <div class="gallery-class weird-box cst-button"><a href="http://www.haleshnc.com/gallery">Gallery</a></div>
-    <div class="reviews weird-box cst-button"><a href="https://www.yelp.ca/biz/hales-heating-and-cooling-liberty" target="_blank">Reviews</a></div>
-    <div class="blog-class weird-box cst-button"><a href="http://www.haleshnc.com/blog">Blog</a></div>
+    <a href="http://www.haleshnc.com/services"><div class="services weird-box cst-button">Services</a></div>
+    <a href="http://www.haleshnc.com/products"><div class="products weird-box cst-button">Products</a></div>
+    <a href="http://www.haleshnc.com/specials"><div class="specials weird-box cst-button">Specials</a></div>
+    <a href="http://www.haleshnc.com/gallery"><div class="gallery-class weird-box cst-button">Gallery</a></div>
+    <a href="http://www.haleshnc.com/reviews"><div class="reviews weird-box cst-button">Reviews</a></div>
+    <a href="http://www.haleshnc.com/blog"><div class="blog-class weird-box cst-button">Blog</a></div>
   </div>
 
 

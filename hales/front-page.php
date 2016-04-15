@@ -41,7 +41,7 @@ get_header(); ?>
       <a href="http://www.haleshnc.com/products"><div class="products weird-box cst-button">Products</a></div>
       <a href="http://www.haleshnc.com/specials"><div class="specials weird-box cst-button">Specials</a></div>
       <a href="http://www.haleshnc.com/gallery"><div class="gallery-class weird-box cst-button">Gallery</a></div>
-      <a href="https://www.yelp.ca/biz/hales-heating-and-cooling-liberty" target="_blank"><div class="reviews weird-box cst-button">Reviews</a></div>
+      <a href="http://www.haleshnc.com/reviews"><div class="reviews weird-box cst-button">Reviews</a></div>
       <a href="http://www.haleshnc.com/blog"><div class="blog-class weird-box cst-button">Blog</a></div>
     </div>
 

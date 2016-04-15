@@ -2024,6 +2024,7 @@ footer a{
 .horizontal-spacer{
 	height: 33px;
 	width: 100%;
+	background-color: #be1e2d;
 }
 
 .page-top-wrapper{
@@ -2275,6 +2276,7 @@ footer a{
 .lower-container{
 	height: 380px;
 	width: 100%;
+	background-color: #be1e2d;
 }
 
 .cst-footer{
@@ -2676,7 +2678,8 @@ float: right;
 
 body{
 	width: 1218px;
-margin: auto;
+	margin: auto;
+ 	background-color: #f0dfb4;
 }
 
 .right-promo-contact{

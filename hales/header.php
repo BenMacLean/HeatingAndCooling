@@ -26,9 +26,9 @@
 
 <div class="page-top-wrapper">
 	<div class="slideshow-wrapper-top">
-		<div class="logo-banner"><img id="smallerheader" src="<?php echo(get_template_directory_uri()); ?>/images/smallerheader.png" alt="" /></div>
+		<a href="http://www.haleshnc.com/home-page"><div class="logo-banner"><img id="smallerheader" src="<?php echo(get_template_directory_uri()); ?>/images/smallerheader.png" alt="" /></div>
 			<div class="page-top-contact">
-				<img id="phonenumber" src="<?php echo(get_template_directory_uri()); ?>/images/phonenumber.png" alt="" />
+				<a href="tel:816-792-3300"><img id="phonenumber" src="<?php echo(get_template_directory_uri()); ?>/images/phonenumber.png" alt="" /></a>
 				<a href="https://www.facebook.com/HalesHeatingAndCooling/" target="_blank"><img id="facebook" src="<?php echo(get_template_directory_uri()); ?>/images/facebook.png" alt="" /></a>
 				<a href="https://twitter.com/Haleshnc" target="_blank"><img id="twitter" src="<?php echo(get_template_directory_uri()); ?>/images/twitter.png" alt="" /></a>
 			</div>
