@@ -2679,7 +2679,7 @@ float: right;
 body{
 	width: 1218px;
 	margin: auto;
- 	background-color: #f0dfb4;
+ 	background-color: #B2C6C1;
 }
 
 .right-promo-contact{
@@ -2692,4 +2692,9 @@ width: 17.1%;
 .page-middle-images{
 
 	height:441px;
+}
+
+
+.fscf_div_field1_0 div label{
+
 }
