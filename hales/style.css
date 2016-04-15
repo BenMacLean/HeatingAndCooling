@@ -878,9 +878,8 @@ object {
 /*--------------------------------------------------------------
 ## Galleries
 --------------------------------------------------------------*/
-.gallery {
-	margin-bottom: 1.5em;
-}
+
+
 
 .gallery-item {
 	display: inline-block;
@@ -1785,9 +1784,6 @@ object {
 /*--------------------------------------------------------------
 ## Galleries
 --------------------------------------------------------------*/
-.gallery {
-	margin-bottom: 1.5em;
-}
 
 .gallery-item {
 	display: inline-block;
@@ -2629,13 +2625,13 @@ float: right;
 }
 
 #fscf_div_field1_3{
-	margin-left: 332px;
+	margin-left: 567px;
 	margin-top: -245px;
 }
 
 #fscf_captcha_image_div1{
-	margin-left: 333px;
-	margin-top: -89px;
+	margin-left: 568px;
+	margin-top: -46px;
 	width: 117px!important;
 }
 
@@ -2643,6 +2639,16 @@ float: right;
 	width: 44px;
 	margin-left: 121px;
 }
+
+#fscf_captcha_field1{
+	margin-left: 450px;
+}
+
+
+#fscf_submit_div1{
+	margin-left: 800px;
+}
+
 /*===========END CONTACT PAGE==========*/
 
 
