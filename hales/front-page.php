@@ -43,6 +43,9 @@ get_header(); ?>
     </div>
 
   <div class="dib secondary-gallery absolute-container">
+    <div class="about-sub-contact cst-button about">
+<divContact
+    </div>
     <div class="slideshow-wrapper-mid">
       <?php do_action('slideshow_deploy', '46'); ?>
     </div>

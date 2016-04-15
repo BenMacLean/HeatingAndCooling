@@ -2156,6 +2156,12 @@ footer a{
 	color: #be1e2d;
 }
 
+.about-sub-contact{
+	display: none;
+}
+
+.about:hover{
+}
 
 
 
@@ -2256,7 +2262,7 @@ footer a{
 
 #promo-txt{
 	max-height: 309px!important;
-	min-height: 260px;
+	min-height: 322px;
 }
 
 .dib.right-promo{
@@ -2369,7 +2375,6 @@ footer a{
 }
 
 .page-middle-container .secondary-gallery img{
-	height: 441px;
   vertical-align: top;
   margin-top: -40px;
   width: 500px;
@@ -2573,4 +2578,18 @@ float: right;
 	padding-top: 13px;
 	text-align: right;
 
+}
+
+
+
+/*===========CONTACT PAGE==========*/
+
+/*===========END CONTACT PAGE==========*/
+
+
+
+
+body{
+	width: 1218px;
+margin: auto;
 }
