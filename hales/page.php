@@ -102,6 +102,12 @@ get_header(); ?>
 </div>
 			<?php wd_contact_form_builder(2); ?> -->
 
+
+      <div class="dib right-promo-contact">
+        <img id="full-promo" src="<?php echo(get_template_directory_uri()); ?>/images/fullpromo.png" alt="" />
+      </div>
+
+
 				<?php endif; ?>
   </div>
 </div>
@@ -119,11 +125,6 @@ get_header(); ?>
 
 
 
-<div class="dib right-promo-contact">
-  <img id="promo" src="<?php echo(get_template_directory_uri()); ?>/images/right-promo-img.png" alt="" />
-  <img id="promo-sub" src="<?php echo(get_template_directory_uri()); ?>/images/promo-sub.png" alt="" />
-  <img id="promo-txt" src="<?php echo(get_template_directory_uri()); ?>/images/right-promo-txt.png" alt="" />
-</div>
 
 <div class="weird-box horizontal-spacer"></div>
 

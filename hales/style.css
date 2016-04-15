@@ -2111,7 +2111,7 @@ footer a{
 }
 
 .middle-container{
-	height: 444px;
+	height: 441px;
 	width: 100%;
 
 }
@@ -2275,8 +2275,6 @@ footer a{
 .lower-container{
 	height: 380px;
 	width: 100%;
-	margin-top: -4px;
-
 }
 
 .cst-footer{
@@ -2362,7 +2360,7 @@ footer a{
 }
 
 .page-middle-container{
-	height: 441px;
+	/*height: 441px;*/
 }
 
 .page-middle-container .secondary-gallery{
@@ -2370,9 +2368,9 @@ footer a{
 }
 
 .page-middle-container .secondary-gallery img{
-  vertical-align: top;
-  margin-top: -40px;
-  width: 500px;
+	vertical-align: top;
+	margin-top: -40px;
+	width: 440px;
 	float: right;
 }
 
@@ -2668,7 +2666,7 @@ float: right;
 .contact-hidden{
 	display: none;
 	position: absolute;
-	left: 237px;
+	left: 215px;
 	z-index: 999;
 	margin-top: -63px;
 	width: 150px;
@@ -2682,13 +2680,13 @@ margin: auto;
 }
 
 .right-promo-contact{
-	position: absolute;
-  right: 83px;
-  width: 13%;
-  height: 441px;
-  background-color: #008a8e;
-  display: inline-block;
-  vertical-align: top;
-  font-family: arial;
-  padding: 21px;
-  top: 789px;
+position: absolute;
+right: 4px;
+top: 40px;
+width: 17.1%;
+}
+
+.page-middle-images{
+
+	height:441px;
+}
