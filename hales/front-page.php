@@ -36,6 +36,9 @@ get_header(); ?>
      <div class="about-extended">
       <a href="http://www.haleshnc.com/about"><div class="about weird-box cst-button">About</a></div>
       <a href="http://www.haleshnc.com/contact"><div class="contact-hidden weird-box cst-button">Contact</a></div>
+      <a href="http://www.haleshnc.com/haleisms"><div class="hales-hidden weird-box cst-button">Hales'isms</a></div>
+      <a href="http://www.haleshnc.com/service-areas"><div class="service-areas-hidden weird-box cst-button nav-smaller-text">Service Areas</a></div>
+      <a href="http://www.haleshnc.com/payment-options"><div class="payment-options-hidden weird-box cst-button nav-smaller-text">Payment Options</a></div>
      </div>
       <a href="http://www.haleshnc.com/services"><div class="services weird-box cst-button">Services</a></div>
       <a href="http://www.haleshnc.com/products"><div class="products weird-box cst-button">Products</a></div>

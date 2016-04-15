@@ -2155,9 +2155,6 @@ footer a{
 
 
 
-.about-extended:hover .contact-hidden{
-	display: block;
-}
 
 
 
@@ -2665,21 +2662,85 @@ float: right;
 
 /*===========END CONTACT PAGE==========*/
 
+.nav-smaller-text{
+	font-size: 12px!important;
+}
+
+
+.about-extended:hover .contact-hidden{
+	display: block;
+}
+
+.about-extended:hover .hales-hidden{
+	display: block;
+
+}
+
+.about-extended:hover .service-areas-hidden{
+	display: block;
+
+}
+
+.nav-smaller-text a{
+	font-size: 14px;
+}
+
+.service-areas-hidden a{
+	position: relative;
+	top: 6px;
+}
+
+.payment-options-hidden a{
+	position: relative;
+	bottom: 4px;
+}
+
+.about-extended:hover .payment-options-hidden{
+	display: block;
+}
+
+
 .contact-hidden{
 	display: none;
 	position: absolute;
-	left: 215px;
+	left: 266px;
+	z-index: 999;
+	margin-top: -63px;
+	width: 150px;
+}
+
+.hales-hidden{
+	display: none;
+	position: absolute;
+	left: 415px;
+	z-index: 999;
+	margin-top: -63px;
+	width: 150px;
+}
+
+.service-areas-hidden{
+	display: none;
+	position: absolute;
+	left: 564px;
+	z-index: 999;
+	margin-top: -63px;
+	width: 150px;
+}
+
+.payment-options-hidden{
+	display: none;
+	position: absolute;
+	left: 716px;
 	z-index: 999;
 	margin-top: -63px;
 	width: 150px;
 }
 
 
-
 body{
 	width: 1218px;
 	margin: auto;
- 	background-color: #B2C6C1;
+ 	background-color: #BED2D1;
 }
 
 .right-promo-contact{
