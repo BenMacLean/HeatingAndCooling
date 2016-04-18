@@ -17,18 +17,29 @@ get_header(); ?>
 <div class="weird-box horizontal-spacer"></div>
 <div class="middle-container page-middle-container <?php echo get_query_var("pagename") ?>">
   <div class="dib button-list">
-   <div class="about-extended">
-    <a href="http://www.haleshnc.com/about"><div class="about weird-box cst-button">About</a></div>
-    <a href="http://www.haleshnc.com/contact"><div class="contact-hidden weird-box cst-button">Contact</a></div>
+    <div class="about-extended">
+     <a href="http://www.haleshnc.com/about"><div class="about weird-box cst-button">About</a></div>
+     <a href="http://www.haleshnc.com/contact"><div class="contact-hidden weird-box cst-button">Contact</a></div>
+     <a href="http://www.haleshnc.com/haleisms"><div class="hales-hidden weird-box cst-button">Hales'isms</a></div>
+     <a href="http://www.haleshnc.com/service-areas"><div class="service-areas-hidden weird-box cst-button nav-smaller-text">Service Areas</a></div>
+     <a href="http://www.haleshnc.com/payment-options"><div class="payment-options-hidden weird-box cst-button nav-smaller-text">Payment Options</a></div>
+    </div>
+   <div class="services-extended">
+     <a href="http://www.haleshnc.com/services"><div class="services weird-box cst-button">Services</a></div>
+     <a href="http://www.haleshnc.com/installation"><div class="installation-hidden weird-box cst-button">Installation</a></div>
+     <a href="http://www.haleshnc.com/maintenance"><div class="maintenance-hidden weird-box cst-button">Maintenance</a></div>
+     <a href="http://www.haleshnc.com/commercial"><div class="commercial-hidden weird-box cst-button">Commercial</a></div>
    </div>
-    <a href="http://www.haleshnc.com/services"><div class="services weird-box cst-button">Services</a></div>
-    <a href="http://www.haleshnc.com/products"><div class="products weird-box cst-button">Products</a></div>
-    <a href="http://www.haleshnc.com/specials"><div class="specials weird-box cst-button">Specials</a></div>
-    <a href="http://www.haleshnc.com/gallery"><div class="gallery-class weird-box cst-button">Gallery</a></div>
-    <a href="http://www.haleshnc.com/reviews"><div class="reviews weird-box cst-button">Reviews</a></div>
-    <a href="http://www.haleshnc.com/blog"><div class="blog-class weird-box cst-button">Blog</a></div>
-  </div>
-
+   <div class="products-extended">
+     <a href="http://www.haleshnc.com/products"><div class="products weird-box cst-button">Products</a></div>
+     <a href="http://www.haleshnc.com/carrier"><div class="carrier-hidden weird-box cst-button">Carrier</a></div>
+     <a href="http://www.haleshnc.com/aprilaire"><div class="aprilaire-hidden weird-box cst-button">Aprilaire</a></div>
+   </div>
+     <a href="http://www.haleshnc.com/specials"><div class="specials weird-box cst-button">Specials</a></div>
+     <a href="http://www.haleshnc.com/gallery"><div class="gallery-class weird-box cst-button">Gallery</a></div>
+     <a href="http://www.haleshnc.com/reviews"><div class="reviews weird-box cst-button">Reviews</a></div>
+     <a href="http://www.haleshnc.com/blog"><div class="blog-class weird-box cst-button">Blog</a></div>
+   </div>
 
   <div class="dib secondary-gallery absolute-container">
 
