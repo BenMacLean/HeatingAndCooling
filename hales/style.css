@@ -1832,8 +1832,11 @@ object {
 
 
 body{
-    font-family: Georgia;
+    font-family: arial;
+		color: #603813;
+		font-weight: bolder;
     margin: 0;
+
 		/*border: 10 px solid #be1e2d;*/
 
 
@@ -2376,11 +2379,14 @@ footer a{
 
 .cst-inner-text{
 	float: left;
-	max-width: 47%;
-	padding: 0px 24px;
-	font-family: arial;
-	font-size: 16px;
-	text-align: left;
+  max-width: 57%;
+  padding: 0px 23px;
+  font-family: arial;
+  font-size: 16px;
+  text-align: left;
+  height: 435px;
+  overflow: scroll;
+  margin-top: -20px;
 
 }
 
