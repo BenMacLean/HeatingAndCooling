@@ -2666,6 +2666,13 @@ float: right;
 	position: absolute;
 }
 
+.right-promo-contact{
+position: absolute;
+right: 4px;
+top: 40px;
+width: 17.1%;
+}
+
 
 /*===========END CONTACT PAGE==========*/
 
@@ -2815,12 +2822,7 @@ body{
  	background-color: #BED2D1;
 }
 
-.right-promo-contact{
-position: absolute;
-right: 4px;
-top: 40px;
-width: 17.1%;
-}
+
 
 .page-middle-images{
 
