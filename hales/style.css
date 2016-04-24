@@ -2598,6 +2598,14 @@ float: right;
 	padding-top: 18px;
 }
 
+.right-promo-contact{
+position: absolute;
+right: 4px;
+top: 40px;
+width: 17.1%;
+}
+
+
 #FSContact1{
 	position: relative;
 }
@@ -2666,12 +2674,6 @@ float: right;
 	position: absolute;
 }
 
-.right-promo-contact{
-position: absolute;
-right: 4px;
-top: 40px;
-width: 17.1%;
-}
 
 
 /*===========END CONTACT PAGE==========*/
